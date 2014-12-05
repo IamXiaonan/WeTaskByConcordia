@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6FFB6EB1A315782004E86A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FFB6EA1A315782004E86A8 /* main.m */; };
+		B6FFB6EE1A315782004E86A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FFB6ED1A315782004E86A8 /* AppDelegate.m */; };
+		B6FFB6F11A315782004E86A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FFB6F01A315782004E86A8 /* ViewController.m */; };
+		B6FFB6F41A315782004E86A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FFB6F21A315782004E86A8 /* Main.storyboard */; };
+		B6FFB6F61A315782004E86A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6FFB6F51A315782004E86A8 /* Images.xcassets */; };
+		B6FFB6F91A315782004E86A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6FFB6F71A315782004E86A8 /* LaunchScreen.xib */; };
+		B6FFB7051A315783004E86A8 /* WeTaskByConcordiaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FFB7041A315783004E86A8 /* WeTaskByConcordiaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6FFB6FF1A315783004E86A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6FFB6DD1A315782004E86A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6FFB6E41A315782004E86A8;
+			remoteInfo = WeTaskByConcordia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6FFB6E51A315782004E86A8 /* WeTaskByConcordia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeTaskByConcordia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6FFB6E91A315782004E86A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6FFB6EA1A315782004E86A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6FFB6EC1A315782004E86A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6FFB6ED1A315782004E86A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6FFB6EF1A315782004E86A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6FFB6F01A315782004E86A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6FFB6F31A315782004E86A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6FFB6F51A315782004E86A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B6FFB6F81A315782004E86A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B6FFB6FE1A315783004E86A8 /* WeTaskByConcordiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeTaskByConcordiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6FFB7031A315783004E86A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6FFB7041A315783004E86A8 /* WeTaskByConcordiaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeTaskByConcordiaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6FFB6E21A315782004E86A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FFB6FB1A315783004E86A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6FFB6DC1A315782004E86A8 = {
+			isa = PBXGroup;
+			children = (
+				B6FFB6E71A315782004E86A8 /* WeTaskByConcordia */,
+				B6FFB7011A315783004E86A8 /* WeTaskByConcordiaTests */,
+				B6FFB6E61A315782004E86A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6FFB6E61A315782004E86A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6FFB6E51A315782004E86A8 /* WeTaskByConcordia.app */,
+				B6FFB6FE1A315783004E86A8 /* WeTaskByConcordiaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6FFB6E71A315782004E86A8 /* WeTaskByConcordia */ = {
+			isa = PBXGroup;
+			children = (
+				B6FFB6EC1A315782004E86A8 /* AppDelegate.h */,
+				B6FFB6ED1A315782004E86A8 /* AppDelegate.m */,
+				B6FFB6EF1A315782004E86A8 /* ViewController.h */,
+				B6FFB6F01A315782004E86A8 /* ViewController.m */,
+				B6FFB6F21A315782004E86A8 /* Main.storyboard */,
+				B6FFB6F51A315782004E86A8 /* Images.xcassets */,
+				B6FFB6F71A315782004E86A8 /* LaunchScreen.xib */,
+				B6FFB6E81A315782004E86A8 /* Supporting Files */,
+			);
+			path = WeTaskByConcordia;
+			sourceTree = "<group>";
+		};
+		B6FFB6E81A315782004E86A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6FFB6E91A315782004E86A8 /* Info.plist */,
+				B6FFB6EA1A315782004E86A8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6FFB7011A315783004E86A8 /* WeTaskByConcordiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6FFB7041A315783004E86A8 /* WeTaskByConcordiaTests.m */,
+				B6FFB7021A315783004E86A8 /* Supporting Files */,
+			);
+			path = WeTaskByConcordiaTests;
+			sourceTree = "<group>";
+		};
+		B6FFB7021A315783004E86A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6FFB7031A315783004E86A8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6FFB6E41A315782004E86A8 /* WeTaskByConcordia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6FFB7081A315783004E86A8 /* Build configuration list for PBXNativeTarget "WeTaskByConcordia" */;
+			buildPhases = (
+				B6FFB6E11A315782004E86A8 /* Sources */,
+				B6FFB6E21A315782004E86A8 /* Frameworks */,
+				B6FFB6E31A315782004E86A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeTaskByConcordia;
+			productName = WeTaskByConcordia;
+			productReference = B6FFB6E51A315782004E86A8 /* WeTaskByConcordia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6FFB6FD1A315783004E86A8 /* WeTaskByConcordiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6FFB70B1A315783004E86A8 /* Build configuration list for PBXNativeTarget "WeTaskByConcordiaTests" */;
+			buildPhases = (
+				B6FFB6FA1A315783004E86A8 /* Sources */,
+				B6FFB6FB1A315783004E86A8 /* Frameworks */,
+				B6FFB6FC1A315783004E86A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6FFB7001A315783004E86A8 /* PBXTargetDependency */,
+			);
+			name = WeTaskByConcordiaTests;
+			productName = WeTaskByConcordiaTests;
+			productReference = B6FFB6FE1A315783004E86A8 /* WeTaskByConcordiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6FFB6DD1A315782004E86A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Concordia InforTech";
+				TargetAttributes = {
+					B6FFB6E41A315782004E86A8 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					B6FFB6FD1A315783004E86A8 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = B6FFB6E41A315782004E86A8;
+					};
+				};
+			};
+			buildConfigurationList = B6FFB6E01A315782004E86A8 /* Build configuration list for PBXProject "WeTaskByConcordia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6FFB6DC1A315782004E86A8;
+			productRefGroup = B6FFB6E61A315782004E86A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6FFB6E41A315782004E86A8 /* WeTaskByConcordia */,
+				B6FFB6FD1A315783004E86A8 /* WeTaskByConcordiaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6FFB6E31A315782004E86A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FFB6F41A315782004E86A8 /* Main.storyboard in Resources */,
+				B6FFB6F91A315782004E86A8 /* LaunchScreen.xib in Resources */,
+				B6FFB6F61A315782004E86A8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FFB6FC1A315783004E86A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6FFB6E11A315782004E86A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FFB6F11A315782004E86A8 /* ViewController.m in Sources */,
+				B6FFB6EE1A315782004E86A8 /* AppDelegate.m in Sources */,
+				B6FFB6EB1A315782004E86A8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FFB6FA1A315783004E86A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FFB7051A315783004E86A8 /* WeTaskByConcordiaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6FFB7001A315783004E86A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6FFB6E41A315782004E86A8 /* WeTaskByConcordia */;
+			targetProxy = B6FFB6FF1A315783004E86A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6FFB6F21A315782004E86A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6FFB6F31A315782004E86A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6FFB6F71A315782004E86A8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6FFB6F81A315782004E86A8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6FFB7061A315783004E86A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6FFB7071A315783004E86A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6FFB7091A315783004E86A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeTaskByConcordia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6FFB70A1A315783004E86A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeTaskByConcordia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6FFB70C1A315783004E86A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WeTaskByConcordiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeTaskByConcordia.app/WeTaskByConcordia";
+			};
+			name = Debug;
+		};
+		B6FFB70D1A315783004E86A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WeTaskByConcordiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeTaskByConcordia.app/WeTaskByConcordia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6FFB6E01A315782004E86A8 /* Build configuration list for PBXProject "WeTaskByConcordia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FFB7061A315783004E86A8 /* Debug */,
+				B6FFB7071A315783004E86A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6FFB7081A315783004E86A8 /* Build configuration list for PBXNativeTarget "WeTaskByConcordia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FFB7091A315783004E86A8 /* Debug */,
+				B6FFB70A1A315783004E86A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6FFB70B1A315783004E86A8 /* Build configuration list for PBXNativeTarget "WeTaskByConcordiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FFB70C1A315783004E86A8 /* Debug */,
+				B6FFB70D1A315783004E86A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6FFB6DD1A315782004E86A8 /* Project object */;
+}
